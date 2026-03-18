@@ -36,7 +36,7 @@ pip install -r requirements.txt
 1. Otwórz `notebooks/analiza.ipynb` w VS Code lub Jupyter
 2. Uruchom kolejno wszystkie komórki (Run All)
 3. Przy pierwszym uruchomieniu dane zostaną pobrane z NVD API
-   - **Bez klucza API:** ~15–30 min (rate limiting 5 req/30s)
+   - **Bez klucza API:** do +30 min (rate limiting 5 req/30s)
    - **Z kluczem API:** ~2–5 min – klucz wstaw w cell #1 (`API_KEY = "twoj-klucz"`)
    - Klucz API (darmowy): https://nvd.nist.gov/developers/request-an-api-key
 
